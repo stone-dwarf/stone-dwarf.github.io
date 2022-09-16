@@ -1,3 +1,6 @@
 html {
+  background-attachment: fixed;
   background-image: linear-gradient(#FCF6EC, #D6E5E1);
+  background-repeat: no-repeat;
+  height: 100%;
 }
