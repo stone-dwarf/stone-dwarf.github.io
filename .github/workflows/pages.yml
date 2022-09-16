@@ -35,7 +35,7 @@ jobs:
       - name: Copy to Public
         run: |
           mkdir public
-          cp -v index.html public
+          cp -v index.* public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
