@@ -1,1 +1,15 @@
 @import '/css/core.css';
+
+#header {
+  margin-top: 2rem;
+}
+
+#subtitle {
+  color: cadetblue;
+}
+
+@media (min-width: 550px) {
+  #header {
+    margin-top: 16rem;
+  }
+}

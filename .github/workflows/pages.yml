@@ -37,6 +37,8 @@ jobs:
           mkdir public
           cp -v index.* public
           cp -vr css public
+          cp -vr img public
+          cp -vr js  public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
