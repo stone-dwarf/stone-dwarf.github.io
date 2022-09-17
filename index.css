@@ -1,15 +1,79 @@
 @import '/css/core.css';
 
 #header {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 #subtitle {
-  color: cadetblue;
+  color: var(--accent-blue);
+}
+
+/*** FEED ***/
+#feed {
+  background-color: var(--lite-color);
+  border-radius: 16px;
+  margin: 4rem 0 4rem;
+}
+
+.entry {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.entry+.entry {
+  border-top: 1px solid var(--dark-color);
+}
+
+.entry-date {
+  color: Brown;
+  font-weight: 800;
+  font-size: 1.3rem;
+  font-family: Mulish,Raleway;
+  padding-top: 2px;
+}
+
+.entry-title {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.entry-title a {
+  color: Black;
+  text-decoration: none;
+}
+
+.entry-title a:hover {
+  color: var(--accent-blue);
+}
+
+.entry-filter {
+  color: SlateGray;
+  font-size: 1.4rem;
+  padding-top: 2px;
 }
 
 @media (min-width: 550px) {
   #header {
     margin-top: 16rem;
+  }
+
+  /*** FEED ***/
+  #feed {
+    margin-top: 8rem;
+  }
+
+  .entry {
+    align-items: center;
+    display: flex;
+  }
+
+  .entry-date,
+  .entry-title {
+    text-align: left;
+  }
+
+  .entry-filter {
+    text-align:right;
   }
 }
