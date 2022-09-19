@@ -1,12 +1,15 @@
 :root {
-  --lite-color: #F7ECDE;
-  --dark-color: #DEB6AB;
   --accent-blue: cadetblue;
+  --accent-gray: SlateGray;
+  --accent-green: #647E68;
+  --accent-pink: #DEB6AB;
+  --accent-red: #B25068;
+  --lite-color: #F7ECDE;
 }
 
 html {
   background-attachment: fixed;
-  background-image: linear-gradient(var(--lite-color) 32%, var(--dark-color));
+  background-image: linear-gradient(var(--lite-color) 32%, var(--accent-green));
   background-repeat: no-repeat;
   height: 100%;
 }

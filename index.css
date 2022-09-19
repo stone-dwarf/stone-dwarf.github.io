@@ -5,7 +5,7 @@
 }
 
 #subtitle {
-  color: var(--accent-blue);
+  color: var(--accent-green);
 }
 
 /*** FEED ***/
@@ -21,11 +21,11 @@
 }
 
 .entry+.entry {
-  border-top: 1px solid var(--dark-color);
+  border-top: 1px solid var(--accent-green);
 }
 
 .entry-date {
-  color: Brown;
+  color: var(--accent-red);
   font-weight: 800;
   font-size: 1.3rem;
   font-family: Mulish,Raleway;
@@ -44,11 +44,11 @@
 }
 
 .entry-title a:hover {
-  color: var(--accent-blue);
+  color: var(--accent-green);
 }
 
 .entry-filter {
-  color: SlateGray;
+  color: var(--accent-gray);
   font-size: 1.4rem;
   padding-top: 2px;
 }
