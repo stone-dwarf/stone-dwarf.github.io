@@ -12,7 +12,7 @@
 #feed {
   background-color: var(--lite-color);
   border-radius: 16px;
-  margin: 4rem 0 4rem;
+  margin: 4rem auto 0;
 }
 
 .entry {
