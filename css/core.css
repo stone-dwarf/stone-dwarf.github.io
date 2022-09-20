@@ -7,6 +7,8 @@
   --lite-color: #F7ECDE;
 }
 
+/* GENERAL TAG FORMATTING */
+
 html {
   background-attachment: fixed;
   background-image: linear-gradient(var(--lite-color) 32%, var(--accent-green));
@@ -28,6 +30,8 @@ a:hover {
   color: var(--accent-green)
 }
 
+/* COMMON COMPONENTS */
+
 .container {
   background-color: var(--lite-color);
   border-radius: 16px;
@@ -45,7 +49,7 @@ a:hover {
   padding-top: 2rem;
 }
 
-.metadata {
+#metadata {
   margin: 2rem auto 0rem;
   text-align: center;
 }
@@ -87,7 +91,7 @@ img {
     margin-top: 4rem;
   }
 
-  .metadata {
+  #metadata {
     margin-top: 4rem;
   }
 }
