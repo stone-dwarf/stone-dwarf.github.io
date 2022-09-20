@@ -31,7 +31,7 @@ a:hover {
 .container {
   background-color: var(--lite-color);
   border-radius: 16px;
-  margin: 4rem auto 4rem;
+  margin: 4rem auto 0;
   max-width: 800px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -40,6 +40,10 @@ a:hover {
 #header {
   margin-top: 4rem;
   text-align: center;
+}
+
+#bottom-margin {
+  margin-top: 4rem;
 }
 
 .metadata {
