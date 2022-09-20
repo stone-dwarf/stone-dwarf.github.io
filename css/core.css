@@ -31,23 +31,22 @@ a:hover {
 .container {
   background-color: var(--lite-color);
   border-radius: 16px;
-  margin: 4rem auto 0;
+  margin: 2rem auto 0;
   max-width: 800px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
 #header {
-  margin-top: 4rem;
   text-align: center;
 }
 
 #bottom-margin {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .metadata {
-  margin: 4rem auto 0rem;
+  margin: 2rem auto 0rem;
   text-align: center;
 }
 
@@ -83,3 +82,12 @@ img {
   width:fit-content;
 }
 
+@media (min-width: 550px) {
+  .container {
+    margin-top: 4rem;
+  }
+
+  .metadata {
+    margin-top: 4rem;
+  }
+}
