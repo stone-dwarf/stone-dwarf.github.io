@@ -19,11 +19,19 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
+a {
+  color: Black;
+  text-decoration: none;
+}
+
 a:hover {
   color: var(--accent-green)
 }
 
 .container {
+  background-color: var(--lite-color);
+  border-radius: 16px;
+  margin: 4rem auto 4rem;
   max-width: 800px;
 }
 
@@ -54,7 +62,7 @@ a:hover {
   color: var(--accent-green);
 }
 
-.image-container {
+.image {
   font-family: Mulish,Raleway;
   font-size: 1.5rem;
   font-weight: 600;
