@@ -64,6 +64,6 @@ class Feed {
 
 // MAIN
 const feed = new Feed('feed')
-feed.add(2022, 8, 15, 'Town Blacksmith Shop', '/page/solca-town-blacksmith', [Filter.BATTLEMAP])
+feed.add(2022, 8, 15, 'Solca Town Blacksmith', '/page/solca-town-blacksmith', [Filter.BATTLEMAP])
 feed.add(2022, 9, 5, 'Lapis Haven Regional Map', '/page/lapis-haven-regional-map', [Filter.MAP])
 feed.render()
