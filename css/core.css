@@ -118,7 +118,7 @@ input.creature-rank::-moz-range-thumb {
   background: var(--accent-blue);
   cursor: pointer;}
 input#party-size-slider::-webkit-slider-thumb {
-  background: var(--accent-green);}
+  background: var(--accent-red);}
 
 @media (min-width: 550px) {
   .container {
