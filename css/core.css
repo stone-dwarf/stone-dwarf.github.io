@@ -1,6 +1,7 @@
 :root {
   --accent-blue: cadetblue;
   --accent-gray: SlateGray;
+  --accent-gray-light: #CFD2CF;
   --accent-green: #647E68;
   --accent-pink: #DEB6AB;
   --accent-red: #B25068;
@@ -81,8 +82,7 @@ input.creature-rank::-webkit-slider-runnable-track {
   height: 14px;
   cursor: pointer;
   animate: 0.2s;
-  /* box-shadow: 1px 1px 1px var(--accent-gray); */
-  background: var(--accent-gray);
+  background: var(--accent-gray-light);
   border-radius: 14px;
   border: 0px solid #000000;}
 input#party-size-slider::-webkit-slider-thumb,
@@ -98,13 +98,12 @@ input.creature-rank::-webkit-slider-thumb {
   margin-top: -2.5px;}
 input#party-size-slider:focus::-webkit-slider-runnable-track,
 input.creature-rank:focus::-webkit-slider-runnable-track {
-  background: var(--accent-gray);}
+  background: var(--accent-gray-light);}
 input#party-size-slider::-moz-range-track,
 input.creature-rank::-moz-range-track {
   height: 14px;
   cursor: pointer;
   animate: 0.2s;
-  box-shadow: 1px 1px 1px var(--accent-gray);
   background: var(--accent-gray);
   border-radius: 14px;
   border: 0px solid #000000;}
