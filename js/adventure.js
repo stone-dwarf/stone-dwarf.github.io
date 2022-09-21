@@ -31,8 +31,9 @@ class PartySizeSlider {
     // render template
     $(this.frame).html(PartySizeSlider.template)
     this.display = $('#' + PartySizeSlider.displayId)
+    $(this.display).html(this.size)
     this.slider = $('#' + PartySizeSlider.sliderId)
-    $(this.slider).attr({min: min, max: max, value: min})
+    $(this.slider).attr({min: min, max: max, value: this.size})
 
     // oninput
     $(this.slider).on('input', function () {
