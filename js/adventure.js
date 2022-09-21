@@ -52,6 +52,8 @@ class PartySizeSlider {
    */
   subscribe (context, callback) {
     this.callbacks.push({self: context, fn: callback})
+    // call it to set initial value
+    callback.call(context, this.size)
   }
 
   /**
@@ -70,4 +72,26 @@ class PartySizeSlider {
   }
 }
 
-export { PartySizeSlider }
+class DynamicText {
+  /**
+   * provide necessary objects to provide a dynamic value on the page
+   * @function generator
+   * @param {PartySizeSlider} partyCls object of current slider
+   * @param {String} frameId id of parent dom to insert text
+   * @param {generator(Number)} genText generate text based on provided party size
+   */
+  constructor (partyCls, frameId, genText) {
+    this.party = partyCls
+    this.frame = $('#' + frameId)
+    this.text = genText
+
+    // sub to party size changes
+    this.party.subscribe(this, this.onNewPartySize)
+  }
+
+  onNewPartySize (size) {
+    $(this.frame).html(this.text(size))
+  }
+}
+
+export { DynamicText, PartySizeSlider }
