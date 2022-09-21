@@ -4,102 +4,70 @@
   --accent-green: #647E68;
   --accent-pink: #DEB6AB;
   --accent-red: #B25068;
-  --lite-color: #F7ECDE;
-}
+  --lite-color: #F7ECDE;}
 
 /* GENERAL TAG FORMATTING */
-
 html {
   background-attachment: fixed;
   background-image: linear-gradient(var(--lite-color) 32%, var(--accent-green));
   background-repeat: no-repeat;
-  height: 100%;
-}
-
+  height: 100%;}
 h1, h2, h3, h4, h5, h6 {
   margin: 0 auto 0;
-  text-align: center;
-}
-
+  text-align: center;}
 a {
   color: Black;
-  text-decoration: none;
-}
-
+  text-decoration: none;}
 a:hover {
   color: var(--accent-green)
 }
 
 /* COMMON COMPONENTS */
-
 .container {
   background-color: var(--lite-color);
   border-radius: 16px;
   margin: 2rem auto 0;
   max-width: 800px;
   padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
+  padding-right: 1.5rem;}
 #header {
-  text-align: center;
-}
-
+  text-align: center;}
 #bottom-margin {
-  padding-top: 2rem;
-}
-
+  padding-top: 2rem;}
 #metadata {
   margin: 2rem auto 0rem;
-  text-align: center;
-}
-
+  text-align: center;}
 .meta-item {
   color: var(--accent-gray);
   font-size: 1.1rem;
   font-weight: 600;
   font-family: Mulish,Raleway;
-  text-transform: uppercase;
-}
-
+  text-transform: uppercase;}
 .meta-item+.meta-item:before {
   content: "\02022";
-  margin: 0 0.5rem 0;
-}
-
+  margin: 0 0.5rem 0;}
 .meta-edition {
-  color: var(--accent-green);
-}
-
+  color: var(--accent-green);}
 .image {
   font-family: Mulish,Raleway;
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 4rem;
   text-align: center;
-  text-transform: capitalize;
-}
-
+  text-transform: capitalize;}
 img {
   display: block;
   margin: 2.5rem auto 0;
-  width:fit-content;
-}
+  width:fit-content;}
 
 /* INPUT */
 #party-size-selector {
-  text-align: center;
-}
-
+  text-align: center;}
 #party-size-display {
   font-family: Mulish,Raleway;
-  font-size: 2rem;
-}
-
+  font-size: 2rem;}
 input#party-size-slider {
-  width: 64%;
-}
-
+  width: 64%;}
 input#party-size-slider,
 input.creature-rank {
   height: 26px;
@@ -149,17 +117,17 @@ input.creature-rank::-moz-range-thumb {
   border-radius: 12px;
   background: var(--accent-blue);
   cursor: pointer;}
-
 input#party-size-slider::-webkit-slider-thumb {
-  background: var(--accent-red);
-}
+  background: var(--accent-green);}
 
 @media (min-width: 550px) {
   .container {
-    margin-top: 4rem;
-  }
-
+    margin-top: 4rem;}
   #metadata {
-    margin-top: 4rem;
-  }
+    margin-top: 4rem;}
+
+  #party-size-display {
+    font-size: 3rem;}
+  #party-size-slider {
+    width: 256px;}
 }
