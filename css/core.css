@@ -87,6 +87,15 @@ img {
 }
 
 /* INPUT */
+#party-size-selector {
+  text-align: center;
+}
+
+#party-size-display {
+  font-family: Mulish,Raleway;
+  font-size: 2rem;
+}
+
 input#party-size-slider {
   width: 64%;
 }
