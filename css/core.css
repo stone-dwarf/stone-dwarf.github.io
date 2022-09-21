@@ -104,7 +104,7 @@ input.creature-rank::-webkit-slider-runnable-track {
   height: 14px;
   cursor: pointer;
   animate: 0.2s;
-  box-shadow: 1px 1px 1px var(--accent-gray);
+  /* box-shadow: 1px 1px 1px var(--accent-gray); */
   background: var(--accent-gray);
   border-radius: 14px;
   border: 0px solid #000000;}
