@@ -2,7 +2,11 @@ import { CreatureStatBlock, DynamicText, PartySizeSlider } from "/js/adventure.j
 
 const party = new PartySizeSlider('party-size-selector')
 const donyaLoot = new DynamicText(party, 'donya-loot', (size) => {
-  return (size * 5) + ' gp'
+  return (size * 4) + ' gp'
+})
+
+const donyaLoot = new DynamicText(party, 'donya-loot', (size) => {
+  return (size * 3) + ' gp'
 })
 
 const oleg = new CreatureStatBlock(party, 'oleg')

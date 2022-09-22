@@ -77,9 +77,7 @@ img {
   border: 1px solid var(--accent-red);
   margin-top: 2rem;
   padding: 0.5rem;
-  text-align: center;
-}
-
+  text-align: center;}
 .creature-quantity {
   margin: 0.5rem auto 0;
   border-radius: 16%;
@@ -91,81 +89,53 @@ img {
   font-weight: 600;
   display: inline-block;
   box-sizing: border-box;
-  padding: 0 0.5rem 0;
-}
-
+  padding: 0 0.5rem 0;}
 .creature-name {
-  margin-bottom: 0rem;
-}
-
+  margin-bottom: 0rem;}
 .rank-frame {
   margin-top: 1rem;
-  font-weight: 800;
-}
-
+  font-weight: 800;}
 .rank-value {
   margin-left: 1rem;
-  font-family: Mulish,Raleway;
-}
-
+  font-family: Mulish,Raleway;}
 .major-stat-headers {
   font-size: 3rem;
   font-weight: 800;
-  line-height: 3rem;
-}
-
+  line-height: 3rem;}
 .maj-stat-hdr,
 .maj-stat {
   width: 30.6666666667%;
-  margin-left: 4%;
-}
-
+  margin-left: 4%;}
 .maj-stat-hdr:first-child,
 .maj-stat:first-child {
-  margin-left: 0;
-}
-
+  margin-left: 0;}
 .major-stats {
   font-weight: 400;
   font-family: Mulish,Raleway;
-  margin-bottom: 0.5rem;
-}
-
+  margin-bottom: 0.5rem;}
 .major-stats-big {
-  font-size: 2.5rem;
-}
-
+  font-size: 2.5rem;}
 .modifiers {
-  margin-bottom: 0.5rem;
-}
-
+  margin-bottom: 0.5rem;}
 .ability-header {
   padding-bottom: 0;
   border: 0;
   text-align: center;
   color:var(--accent-red);
   padding: 1rem 0.5rem 0;
-  border-top: 1px solid var(--accent-gray-light);
-}
-
+  border-top: 1px solid var(--accent-gray-light);}
 .ability-mod {
   padding: 0 0.5rem 1rem;
   border: 0;
   border-bottom: 1px solid var(--accent-gray-light);
-  text-align: center;
-}
-
+  text-align: center;}
 .traits {
   text-align: left;
   padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--accent-gray-light);
-}
-
+  border-bottom: 1px solid var(--accent-gray-light);}
 .behavior {
   margin-top: 0.5rem;
-  text-align: left;
-}
-
+  text-align: left;}
 .traits-header,
 .passives-header,
 .actions-header,
@@ -174,9 +144,7 @@ img {
   color: var(--accent-red);
   font-size: 2rem;
   font-weight: 800;
-  text-align: left;
-}
-
+  text-align: left;}
 .passives,
 .action,
 .bonus-action,
@@ -184,9 +152,7 @@ img {
   text-align: left;
   padding-left: 2rem;
   text-indent: -2rem;
-  font-family: Mulish,Raleway;
-}
-
+  font-family: Mulish,Raleway;}
 .trait-name,
 .passive-name,
 .action-name,
@@ -194,8 +160,7 @@ img {
 .reaction-name {
   color: var(--accent-red);
   margin-right: 0.5rem;
-  font-weight: 600;
-}
+  font-weight: 600;}
 
 /* INPUT */
 #party-size-selector {
@@ -257,8 +222,11 @@ input#party-size-slider::-webkit-slider-thumb {
 
 .roleplaying {
   border: 1px solid var(--accent-green);
-  padding: 1rem;
-}
+  padding: 1rem;}
+.item {
+  background-color: var(--accent-pink);
+  border: 1px solid var(--accent-blue);
+  padding: 1rem;}
 
 @media (min-width: 550px) {
   .container {
