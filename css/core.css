@@ -67,7 +67,7 @@ img {
   width:fit-content;}
 
 .creature-stat-block {
-  /* background-image: url('https://i.imgur.com/DezLF4D.jpg'); */
+  background-image: url('https://i.imgur.com/jQ6xwyx.png');
   background-size: cover;
   border: 1px solid var(--accent-red);
   margin-top: 2rem;
