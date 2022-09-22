@@ -250,6 +250,11 @@ input.creature-rank::-moz-range-thumb {
 input#party-size-slider::-webkit-slider-thumb {
   background: var(--accent-green);}
 
+.roleplaying {
+  border: 1px solid var(--accent-green);
+  padding: 1rem;
+}
+
 @media (min-width: 550px) {
   .container {
     margin-top: 4rem;}
