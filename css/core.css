@@ -27,6 +27,9 @@ a {
 a:hover {
   color: var(--accent-green)
 }
+p {
+  margin: 0 auto 0;
+}
 
 /* COMMON COMPONENTS */
 .container {
@@ -38,6 +41,8 @@ a:hover {
   padding-right: 1.5rem;}
 #header {
   text-align: center;}
+.section-header {
+  margin-top: 2rem;}
 #bottom-margin {
   padding-top: 2rem;}
 #metadata {

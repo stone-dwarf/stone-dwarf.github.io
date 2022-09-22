@@ -111,7 +111,7 @@ kobal.setReactions([
   }])
 kobal.refresh()
 
-const servant = new CreatureStatBlock(party, 'strigoi-servant')
+const servant = new CreatureStatBlock(party, 'servant')
 servant.setQuantityFunction(function (partySize) { return Math.min(3, partySize - 1) })
 servant.setName('Strigoi Servant')
 servant.setDescriptor('medium humanoid (Strigoi), lawful evil')
