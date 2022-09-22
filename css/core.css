@@ -163,10 +163,12 @@ img {
 
 /* INPUT */
 #party-size-selector {
+  margin-top: 0.5rem;
   text-align: center;}
 #party-size-display {
   font-family: Mulish,Raleway;
-  font-size: 2rem;}
+  font-size: 3rem;
+  line-height: 1rem;}
 input#party-size-slider {
   width: 64%;}
 input#party-size-slider,
@@ -234,8 +236,6 @@ input#party-size-slider::-webkit-slider-thumb {
   #metadata {
     margin-top: 4rem;}
 
-  #party-size-display {
-    font-size: 3rem;}
   #party-size-slider {
     width: 256px;}
 }
