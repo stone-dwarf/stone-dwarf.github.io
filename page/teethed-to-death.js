@@ -167,7 +167,7 @@ const cassandra = new CreatureStatBlock(party, 'cassandra')
 cassandra.setQuantityFunction(function (partySize) { return 1 })
 cassandra.setName('Cassandra')
 cassandra.setDescriptor('medium humanoid (Strigoi), neutral')
-cassandra.setRanks(3)
+cassandra.setRanks(4)
 cassandra.setHitPoints([
   { base: 1, sides: 4 },
   { base: 4, sides: 4 },
