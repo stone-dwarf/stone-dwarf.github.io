@@ -27,7 +27,7 @@ a {
 a:hover {
   color: var(--accent-green)
 }
-p {
+p, ul {
   margin: 0 auto 0;
 }
 
@@ -224,9 +224,10 @@ input#party-size-slider::-webkit-slider-thumb {
   border: 1px solid var(--accent-green);
   padding: 1rem;}
 .item {
-  background-color: var(--accent-pink);
   border: 1px solid var(--accent-blue);
   padding: 1rem;}
+.item h6 {
+  color: var(--accent-blue);}
 
 @media (min-width: 550px) {
   .container {
