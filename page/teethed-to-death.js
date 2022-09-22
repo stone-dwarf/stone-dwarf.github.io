@@ -5,7 +5,7 @@ const donyaLoot = new DynamicText(party, 'donya-loot', (size) => {
   return (size * 4) + ' gp'
 })
 
-const donyaLoot = new DynamicText(party, 'donya-loot', (size) => {
+const cassandraLoot = new DynamicText(party, 'cassandra-loot', (size) => {
   return (size * 3) + ' gp'
 })
 
