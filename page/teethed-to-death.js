@@ -171,19 +171,23 @@ cassandra.setRanks(3)
 cassandra.setHitPoints([
   { base: 1, sides: 4 },
   { base: 4, sides: 4 },
-  { base: 8, sides: 4 }])
+  { base: 8, sides: 4 },
+  { base: 16, sides: 4 }])
 cassandra.setArmorClass([
-  { ac: 8, type: null },
-  { ac: 9, type: null },
-  { ac: 10, type: null }])
+  { ac: 12, type: null },
+  { ac: 12, type: null },
+  { ac: 13, type: null },
+  { ac: 14, type: null }])
 cassandra.setSpeed([
+  { sp: 30, type: null },
   { sp: 30, type: null },
   { sp: 30, type: null },
   { sp: 30, type: null }])
 cassandra.setAbilityModifiers([
-  [0, 1, 0, 0, 0, 0],
-  [0, 1, 1, 0, 0, 0],
-  [0, 2, 1, 0, 0, 0]])
+  [0, 1, 0, 1, 0, 0],
+  [0, 1, 1, 1, 0, 0],
+  [0, 2, 1, 1, 0, 0],
+  [0, 2, 1, 1, 0, 0]])
 cassandra.setTraits({ Languages: 'Common' })
 cassandra.setBehavior('When a player gets within 30-feet of Cassandra, she\'ll break through the woodent chest, with her hand, and use the Indica egg.<br><br>As Cassandra nears 0 hit points, streams of tears will begin to show out of fear.')
 cassandra.setPassives([
@@ -199,14 +203,14 @@ cassandra.setActions([
     desc: '+1 to hit. 1d4 slashing damage.'
   },
   {
-    rank: 2,
-    name: 'Bite',
-    desc: '+2 to hit. 1d6 piercing damage.'
+    rank: 0,
+    name: 'Indica Egg',
+    desc: 'See usage below. Cassandra can use this 3 times'
   }])
 cassandra.setReactions([
   {
     rank: 1,
-    name: 'Kick',
-    desc: 'After taking melee damage, you can kick the attacker back 5 feet. Dexterity contested with attackers Strength of Dexterity.'
+    name: 'Dodge',
+    desc: 'The next incoming attack has disadvantage if you can see the attacker.'
   }])
 cassandra.refresh()
