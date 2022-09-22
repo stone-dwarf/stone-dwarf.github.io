@@ -223,7 +223,7 @@ input.creature-rank::-webkit-slider-thumb {
   height: 20px;
   width: 40px;
   border-radius: 12px;
-  background: var(--accent-blue);
+  background: var(--accent-red);
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -2.5px;}
