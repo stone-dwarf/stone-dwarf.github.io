@@ -141,7 +141,7 @@ servant.setAbilityModifiers([
   [0, 2, 1, 0, 0, 0],
   [1, 2, 1, 0, 0, 0]])
 servant.setTraits({ Languages: 'Common' })
-servant.setBehavior('Strigoi Servants will spend first turn attacking the nearest party member. Then move to protect Cassandra.')
+servant.setBehavior('Strigoi Servants will spend first turn attacking the nearest party member. Then move to protect Cassandra.<br><br>If Cassandra dies, they will flee as their servitude is broken.')
 servant.setPassives([
   {
     rank: 0,
