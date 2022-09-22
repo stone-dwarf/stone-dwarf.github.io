@@ -27,7 +27,7 @@ a {
 a:hover {
   color: var(--accent-green)
 }
-p, ul {
+p, li, ul {
   margin: 0 auto 0;
 }
 
