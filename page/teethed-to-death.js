@@ -209,7 +209,7 @@ cassandra.setActions([
   {
     rank: 0,
     name: 'Indica Egg',
-    desc: 'See usage below. Cassandra can use this 3 times'
+    desc: 'See below for usage.'
   }])
 cassandra.setReactions([
   {
