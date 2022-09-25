@@ -66,5 +66,5 @@ class Feed {
 const feed = new Feed('feed')
 feed.add(2022, 8, 15, 'Solca Town Blacksmith', '/page/solca-town-blacksmith', [Filter.BATTLEMAP])
 feed.add(2022, 9, 5, 'Lapis Haven Regional Map', '/page/lapis-haven-regional-map', [Filter.MAP])
-feed.add(2022, 9, 5, 'Teethed To Death (Novice)', '/page/teethed-to-death', [Filter.ADVENTURE, Filter.BATTLEMAP])
+feed.add(2022, 9, 25, 'Teethed To Death (Novice)', '/page/teethed-to-death', [Filter.ADVENTURE, Filter.BATTLEMAP])
 feed.render()
