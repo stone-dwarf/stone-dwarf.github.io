@@ -35,7 +35,7 @@ oleg.setAbilityModifiers([
   [0, 1, 0, 0, 1, 0],
   [0, 2, 0, 0, 1, 0]])
 oleg.setTraits({ Languages: 'Common' })
-oleg.setBehavior('Oleg will try to stop the players from hurting Kobal. He\'ll prioritize grappling players before resorting to punching if that fails or is attacked. If Kobal goes unconcious, Oleg will stop fighting and try to aid his son.')
+oleg.setBehavior('Oleg will try to stop the players from hurting Kobal. He\'ll prioritize grappling players before resorting to punching if that fails or is attacked. If Kobal goes unconscious, Oleg will stop fighting and try to aid his son.')
 oleg.setActions([
   {
     rank: 0,
@@ -193,7 +193,7 @@ cassandra.setAbilityModifiers([
   [0, 2, 1, 1, 0, 0],
   [0, 2, 1, 1, 0, 0]])
 cassandra.setTraits({ Languages: 'Common' })
-cassandra.setBehavior('When a player gets within 30-feet of Cassandra, she\'ll break through the woodent chest, with her hand, and use the Indica egg.<br><br>As Cassandra nears 0 hit points, streams of tears will begin to show out of fear.')
+cassandra.setBehavior('When a player gets within 30-feet of Cassandra, she\'ll break through the wooden chest, with her hand, and use the Indica egg.<br><br>As Cassandra nears 0 hit points, streams of tears will begin to show out of fear.')
 cassandra.setPassives([
   {
     rank: 0,
