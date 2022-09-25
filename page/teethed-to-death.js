@@ -72,9 +72,9 @@ kobal.setName('Kobal')
 kobal.setDescriptor('medium humanoid (Strigoi), neutral evil')
 kobal.setRanks(3)
 kobal.setHitPoints([
-  { base: 3, sides: 4 },
-  { base: 6, sides: 4 },
-  { base: 10, sides: 4 }])
+  { base: 3, sides: 6 },
+  { base: 6, sides: 6 },
+  { base: 10, sides: 6 }])
 kobal.setArmorClass([
   { ac: 8, type: null },
   { ac: 9, type: null },
@@ -121,10 +121,10 @@ servant.setName('Strigoi Servant')
 servant.setDescriptor('medium humanoid (Strigoi), lawful evil')
 servant.setRanks(4)
 servant.setHitPoints([
-  { base: 2, sides: 2 },
   { base: 2, sides: 4 },
-  { base: 8, sides: 4 },
-  { base: 16, sides: 4 }])
+  { base: 2, sides: 6 },
+  { base: 8, sides: 6 },
+  { base: 16, sides: 6 }])
 servant.setArmorClass([
   { ac: 8, type: null },
   { ac: 9, type: null },
@@ -173,10 +173,10 @@ cassandra.setName('Cassandra')
 cassandra.setDescriptor('medium humanoid (Strigoi), neutral')
 cassandra.setRanks(4)
 cassandra.setHitPoints([
-  { base: 1, sides: 4 },
   { base: 4, sides: 4 },
   { base: 8, sides: 4 },
-  { base: 16, sides: 4 }])
+  { base: 16, sides: 4 },
+  { base: 24, sides: 4 }])
 cassandra.setArmorClass([
   { ac: 12, type: null },
   { ac: 12, type: null },
