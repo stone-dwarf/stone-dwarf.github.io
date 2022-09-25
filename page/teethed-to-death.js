@@ -152,12 +152,12 @@ servant.setActions([
   {
     rank: 0,
     name: 'Scratch',
-    desc: '+1 to hit. 1d4 slashing damage.'
+    desc: '+2 to hit. 1d4 + 1 slashing damage.'
   },
   {
     rank: 2,
     name: 'Bite',
-    desc: '+2 to hit. 1d6 piercing damage.'
+    desc: '+2 to hit. 1d4 + 3 piercing damage.'
   }])
 servant.setReactions([
   {
@@ -204,7 +204,7 @@ cassandra.setActions([
   {
     rank: 0,
     name: 'Scratch',
-    desc: '+1 to hit. 1d4 slashing damage.'
+    desc: '+2 to hit. 1d4 + 1 slashing damage.'
   },
   {
     rank: 0,
