@@ -40,10 +40,10 @@ class Feed {
     let entry = $(`
       <div class="entry row">
         <div class="entry-date two columns">${year}.${month}.${day}</div>
-        <div class="entry-title eight columns">
+        <div class="entry-title seven columns">
           <a href="${link}">${title}</a>
         </div>
-        <div class="entry-filter two columns">${filterText}</div>
+        <div class="entry-filter three columns">${filterText}</div>
       </div>
     `)
 
