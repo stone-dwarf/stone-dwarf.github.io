@@ -1460,8 +1460,7 @@ class ItemCompendium {
       weight: '1 lb.',
       description: null,
       magical: false
-    },
-    
+    }
   ]
 }
 
