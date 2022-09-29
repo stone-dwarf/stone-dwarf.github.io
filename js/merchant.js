@@ -1090,123 +1090,375 @@ class ItemCompendium {
       magical: false
     },
     {
-      name: '',
+      name: 'Lock',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '10 gp',
+      weight: '1 lb.',
+      description: `A key is provided with the lock. Without the
+      key, a creature proficient with thieves' tools can pick
+      this lock with a successful DC 15 Dexterity check.
+      Your DM may decide that better locks are available
+      for higher prices.`,
       magical: false
     },
     {
-      name: '',
+      name: 'Magnifying Glass',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '100 gp',
+      weight: null,
+      description: `This lens allows a closer look at
+      small objects. It is also useful as a substitute for flint
+      and steel when starting fires. Lighting a fire with a
+      magnifying glass requires light as bright as sunlight to
+      focus, tinder to ignite, and about 5 minutes for the fire
+      to ignite. A magnifying glass grants advantage on any
+      ability check made to appraise or inspect an item that is
+      small or highly detailed.`,
       magical: false
     },
     {
-      name: '',
+      name: 'Manacles',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '2 gp',
+      weight: '6 lb.',
+      description: `These metal restraints can bind a Small
+      or Medium creature. Escaping the manacles requires
+      a successful DC 20 Dexterity check. Breaking them
+      requires a successful DC 20 Strength check. Each
+      set of manacles comes with one key. Without the key,
+      a creature proficient with thieves' tools can pick the
+      manacles lock with a successful DC 15 Dexterity
+      check. Manacles have 15 hit points.`,
       magical: false
     },
     {
-      name: '',
+      name: 'Mess Kit',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '2 sp',
+      weight: '1 lb.',
+      description: `This tin box contains a cup and simple
+      cutlery. The box clamps together, and one side can
+      be used as a cooking pan and the other as a plate or
+      shallow bowl.`,
       magical: false
     },
     {
-      name: '',
+      name: 'Mirror (Steel)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '5 gp',
+      weight: '0.5 lb.',
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Oil (Flask)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '1 sp',
+      weight: '1 lb.',
+      description: `Oil usually comes in a clay flask that holds 1
+      pint. As an action, you can splash the oil in this flask
+      onto a creature within 5 feet of you or throw it up to
+      20 feet, shattering it on impact. Make a ranged attack
+      against a target creature or object, treating the oil as
+      an improvised weapon. On a hit, the target is covered
+      in oil. If the target takes any fire damage before the oil
+      dries (after 1 minute), the target takes an additional 5
+      fire damage from the burning oil. You can also pour a
+      flask of oil on the ground to cover a 5-foot-square area,
+      provided that the surface is level. If lit, the oil burns for
+      2 rounds and deals 5 fire damage to any creature that
+      enters the area or ends its turn in the area. A creature
+      can take this damage only once per turn.`,
       magical: false
     },
     {
-      name: '',
+      name: 'Paper (One Sheet)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '2 sp',
+      weight: null,
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Parchment (One Sheet)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '1 sp',
+      weight: null,
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Perfume (Vial)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '5 gp',
+      weight: null,
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Pick (Miner\'s)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '2 gp',
+      weight: '10 lb.',
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Piton',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '5 cp',
+      weight: '0.25 lb.',
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Poison (Basic) (Vial)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '100 gp',
+      weight: null,
+      description: `You can use the poison in this vial
+      to coat one slashing or piercing weapon or up to three
+      pieces of ammunition. Applying the poison takes
+      an action. A creature hit by the poisoned weapon or
+      ammunition must make a DC 10 Constitution saving
+      throw or take 1d4 poison damage. Once applied, the
+      poison retains potency for 1 minute before drying.`,
       magical: false
     },
     {
-      name: '',
+      name: 'Pole (10-foot)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '5 cp',
+      weight: '7 lb.',
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Pot (Iron)',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '2 gp',
+      weight: '10 lb.',
+      description: null,
       magical: false
     },
     {
-      name: '',
+      name: 'Potion of Healing',
       type: ItemCompendium.Filter.ADVENTURE_GEAR,
-      cost: '',
-      weight: ' lb.',
-      description: ``,
+      cost: '50 gp',
+      weight: '0.5 lb.',
+      description: `A character who drinks the magical
+      red fluid in this vial regains 2d4 + 2 hit points. Drinking
+      or administering a potion takes an action.`,
+      magical: false
+    },
+    {
+      name: 'Pouch',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 sp',
+      weight: '1 lb.',
+      description: `A cloth or leather pouch can hold up to 20
+      sling bullets or 50 blowgun needles, among other
+      things. A compartmentalized pouch for holding spell
+      components is called a component pouch (described
+      earlier in this section).`,
+      magical: false
+    },
+    {
+      name: 'Quiver',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 gp',
+      weight: '1 lb.',
+      description: `A quiver can hold up to 20 arrows.`,
+      magical: false
+    },
+    {
+      name: 'Ram (Portable)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '4 gp',
+      weight: '35 lb.',
+      description: `You can use a portable ram to break
+      down doors. When doing so, you gain a +4 bonus on the
+      Strength check. One other character can help you use
+      the ram, giving you advantage on this check.`,
+      magical: false
+    },
+    {
+      name: 'Ration (1 day)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 sp',
+      weight: '2 lb.',
+      description: `Rations consist of dry foods suitable
+      for extended travel, including jerky, dried fruit,
+      hardtack, and nuts.`,
+      magical: false
+    },
+    {
+      name: 'Robes',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 gp',
+      weight: '4 lb.',
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Rope (Hempen) (50 Feet)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 gp',
+      weight: '10 lb.',
+      description: `Rope, whether made of hemp or silk, has 2 hit
+      points and can be burst with a DC 17 Strength check.`,
+      magical: false
+    },
+    {
+      name: 'Rope (Silk) (50 Feet)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '10 gp',
+      weight: '5 lb.',
+      description: `Rope, whether made of hemp or silk, has 2 hit
+      points and can be burst with a DC 17 Strength check.`,
+      magical: false
+    },
+    {
+      name: 'Sack',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 cp',
+      weight: '0.5 lb.',
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Scale (Merchant\'s)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 gp',
+      weight: '3 lb.',
+      description: `A scale includes a small balance,
+      pans, and a suitable assortment of weights up to 2
+      pounds. With it, you can measure the exact weight of
+      small objects, such as raw precious metals or trade
+      goods, to help determine their worth.`,
+      magical: false
+    },
+    {
+      name: 'Sealing Wax',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 sp',
+      weight: null,
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Shovel',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '2 gp',
+      weight: '5 lb.',
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Signal Whistle',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 cp',
+      weight: null,
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Signet Ring',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 gp',
+      weight: null,
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Soap',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '2 cp',
+      weight: null,
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Spellbook',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '50 gp',
+      weight: '3 lb.',
+      description: `Essential for wizards, a spellbook is
+      a leather-bound tome with 100 blank vellum pages
+      suitable for recording spells.`,
+      magical: false
+    },
+    {
+      name: 'Spikes (Iron) (10)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 gp',
+      weight: '5 lb.',
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Spyglass',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1000 gp',
+      weight: '1 lb.',
+      description: `Objects viewed through a spyglass are
+      magnified to twice their size.`,
+      magical: false
+    },
+    {
+      name: 'Tent (Two-Person)',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '2 gp',
+      weight: '20 lb.',
+      description: `A simple and portable canvas shelter, a
+      tent sleeps two.`,
+      magical: false
+    },
+    {
+      name: 'Tinderbox',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '5 sp',
+      weight: '1 lb.',
+      description: `This small container holds flint, fire steel,
+      and tinder (usually dry cloth soaked in light oil) used to
+      kindle a fire. Using it to light a torch—or anything else
+      with abundant, exposed fuel—takes an action. Lighting
+      any other fire takes 1 minute.`,
+      magical: false
+    },
+    {
+      name: 'Torch',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 cp',
+      weight: '1 lb.',
+      description: `A torch burns for 1 hour, providing bright light
+      in a 20-foot radius and dim light for an additional 20
+      feet. If you make a melee attack with a burning torch
+      and hit, it deals 1 fire damage.`,
+      magical: false
+    },
+    {
+      name: 'Vial',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 gp',
+      weight: null,
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Waterskin',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '2 sp',
+      weight: '5 lb. (full)',
+      description: null,
+      magical: false
+    },
+    {
+      name: 'Whetstone',
+      type: ItemCompendium.Filter.ADVENTURE_GEAR,
+      cost: '1 cp',
+      weight: '1 lb.',
+      description: null,
       magical: false
     },
     
